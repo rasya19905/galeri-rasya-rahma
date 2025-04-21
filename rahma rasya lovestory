@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rasya & Rahma Love Story</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #d16ba5;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #777;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .photo {
+      background-color: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .photo:hover {
+      transform: scale(1.02);
+    }
+    .photo img {
+      width: 100%;
+      display: block;
+    }
+    .caption {
+      padding: 1rem;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rasya & Rahma Love Story</h1>
+    <p>Galeri kenangan indah kami</p>
+  </header>
+  <main class="gallery">
+    <div class="photo">
+      <img src="foto1.jpg" alt="Foto 1">
+      <div class="caption">Senyuman pertama yang membuat hati berdebar</div>
+    </div>
+    <div class="photo">
+      <img src="foto2.jpg" alt="Foto 2">
+      <div class="caption">Hari ketika dunia seakan hanya milik kita berdua</div>
+    </div>
+    <div class="photo">
+      <img src="foto3.jpg" alt="Foto 3">
+      <div class="caption">Bukti bahwa cinta kami tumbuh seiring waktu</div>
+    </div>
+  </main>
+  <footer>
+    Dibuat dengan cinta oleh Rasya & Rahma
+  </footer>
+</body>
+</html>
